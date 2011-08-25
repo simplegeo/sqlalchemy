@@ -1,3 +1,12 @@
+sqlalchemy (0.6.3-2sg6) maverick; urgency=low
+
+  [ Jeremy Grosser ]
+  * source/format 3.0
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Thu, 25 Aug 2011 18:21:40 +0000
+
 sqlalchemy (0.6.3-2sg0) unstable; urgency=low
 
   * SimpleGeo release

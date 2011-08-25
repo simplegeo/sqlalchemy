@@ -15,7 +15,7 @@ XS-Python-Version: >= 2.4
 
 Package: python-sqlalchemy
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: python, ${misc:Depends}
 Recommends: python-sqlalchemy-ext
 Suggests: python-sqlalchemy-doc, python-psycopg2, python-mysqldb (>= 1.2.1-p2-2),
  python (>= 2.5) | python-pysqlite2 (>= 2.3.0-1) | python-pysqlite1.1 (>= 1.1.7-2) | python-sqlite (>= 1.0.1-5),
@@ -49,7 +49,7 @@ Description: SQL toolkit and Object Relational Mapper for Python
 
 Package: python-sqlalchemy-ext
 Architecture: any
-Depends: python-sqlalchemy (= ${source:Version}), ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Depends: python-sqlalchemy (= ${source:Version}), python, ${shlibs:Depends}, ${misc:Depends}
 Provides: ${python:Provides}
 Breaks: ${python:Breaks}
 Description: SQL toolkit and Object Relational Mapper for Python - C extension

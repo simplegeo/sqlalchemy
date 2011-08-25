@@ -1,3 +1,9 @@
+sqlalchemy (0.6.3-2sg0) unstable; urgency=low
+
+  * SimpleGeo release
+
+ -- Jeremy Grosser <jeremy@synack.me>  Thu, 25 Aug 2011 18:16:32 +0000
+
 sqlalchemy (0.6.3-2) unstable; urgency=low
 
   * Use ${python3:Depends} in python3-sqlalchemy package (closes: 591954)
